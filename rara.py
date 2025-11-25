@@ -1,3 +1,9 @@
+# Building Performance Analysis (Python)
+# Exploratory Data Analysis and basic predictive modeling on a building assets dataset using Python (Pandas, NumPy, Matplotlib, Seaborn, scikit-learn).
+### Project Overview
+# **Objective:** Clean dataset, explore key features, detect outliers, visualize relationships, and train a simple linear regression to understand drivers of the target variable.
+# **Dataset:** Public/private Excel file containing building-related features (location, square footage, construction date, lat/long, etc.).
+
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -95,3 +101,4 @@ if len(numeric_cols) >= 3:
     print("\n--- Linear Regression Coefficients ---")
     print("Intercept:", model.intercept_)
     print("Coefficients:", model.coef_)
+
